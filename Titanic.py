@@ -137,4 +137,3 @@ no_of_prediction, no_of_features = predicted_df.shape
 
 defult_accuracy = 1 - (sum(expected_df['survival'])/no_of_prediction)
 predicted_accuracy = sum((predicted_df['survival'] == expected_df['survival']))/no_of_prediction
-
